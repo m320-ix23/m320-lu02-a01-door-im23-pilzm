@@ -29,7 +29,7 @@ class Door:
     # Danach folgen Methoden, die auf ein Ereignis reagieren
     def open_the_door(self):
         """
-        Methode für das öffnen der Türe.
+        methode für das öffnen der Türe.
         Das ist aber nur möglich, wenn die Türe nicht verriegelt ist.
         """
         if self._door_is_locked == False:
